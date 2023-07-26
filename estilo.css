@@ -1,0 +1,19 @@
+nav{
+    margin: 20px;
+    background-color: rgb(245, 138, 138);
+    font-size: 30px;
+}
+body{
+    background-color: rgb(250, 137, 0);
+    margin: 25px; 
+}
+body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+  }
+  a {
+    color: var(--bs-blue);
+  }
+  table{
+    background-color:rgb(245, 168, 138);
+    margin: 25px;
+  }
