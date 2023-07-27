@@ -1,6 +1,4 @@
 nav{
-    margin: 20px;
-    background-color: rgb(245, 138, 138);
     font-size: 30px;
 }
 body{
@@ -9,9 +7,11 @@ body{
 }
 body {
     font: 1rem/1.5 var(--bs-font-sans-serif);
+    background-image: var(--bs-gradient)
   }
   a {
     color: var(--bs-blue);
+    background-image: var(--bs-gradient)
   }
   table{
     background-color:rgb(245, 168, 138);

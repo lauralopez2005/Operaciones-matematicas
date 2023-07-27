@@ -20,14 +20,14 @@ if(isset($_POST["btncalcular"])){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style= "background-color: #00FF0000;">
     <div class="container-fluid">
       <div class="logo">
         <img src="imagenes/matematicas.png" alt="OPERACIONES MATEMÁTICAS" width="40" height="40" class="d-inline-block align-text-top">
         OPERACIONES MATEMÁTICAS
       </div>
 </nav>
-<body>
+<body style= "background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-addition-subtraction-multiplication-and-division-letters-puzzle-early-education-cognitive-building-image_854389.jpg');">
     <form action="resta.php"  method="post">
         <table background color=blue border=2>
             <tr> 
@@ -57,5 +57,7 @@ if(isset($_POST["btncalcular"])){
          </tr>       
         </table>
     </form>
+
+<a href="index.php"  class="btn btn-primary">Volver al inicio</a>
 </body>
 </html>
